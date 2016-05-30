@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+text {
+  font: 12px sans-serif;
+  pointer-events: none;
+}
+
+/* better using flexbox layout. */
+#checkbox {
+  width: 20%;
+  left: 0;
+}
+
+svg {
+  position: absolute;
+  top: -10%;
+  left: 20%;
+}
+
+input.cb-element {
+  display: inline-block;
+}
+
+</style>
+<script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+<script src="./loadGraph.js"></script>
+
+<body>
+
+<h2>Topics</h2>
+<div id="checkbox">
+</div>
+
+<script>
+
+// == graph styling
+var highlight_trans = 0.1; // transparency for non-relevant nodes.
+var text_x_margin = 8; // distance to circle's center in x axis.
+var circle_radius = 5; // default circle radius.
+
+
+$(document).ready(function(){
+  d3.json("raw.json", function(err, json){
+    if(err){
+      console.log(err);
+    }
+    console.log(json);
+    dataInitialize(json);
+  })
+});
+
+
+</script>

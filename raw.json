@@ -1,0 +1,929 @@
+{
+  "interactions": 4108600,
+  "unique_authors": 2829600,
+  "analysis": {
+    "analysis_type": "freqDist",
+    "parameters": {
+      "target": "fb.topic_graph",
+      "threshold": 200
+    },
+    "results": [
+      {
+        "key": "Government Official|Senator Ted Cruz|Public Figure|Glenn Beck",
+        "interactions": 4300,
+        "unique_authors": 3300
+      },
+      {
+        "key": "Public Figure|Donald J. Trump|Public Figure|Glenn Beck",
+        "interactions": 4100,
+        "unique_authors": 3100
+      },
+      {
+        "key": "Public Figure|Donald J. Trump|Public Figure|Sean Hannity",
+        "interactions": 3300,
+        "unique_authors": 2500
+      },
+      {
+        "key": "Musician/Band|Nikki Sixx|Musician/Band|Sixx:A.M.",
+        "interactions": 2200,
+        "unique_authors": 1400
+      },
+      {
+        "key": "Government Official|Senator Ted Cruz|Public Figure|Donald J. Trump",
+        "interactions": 2000,
+        "unique_authors": 1600
+      },
+      {
+        "key": "Political Party|Republican Party|Public Figure|Donald J. Trump",
+        "interactions": 1900,
+        "unique_authors": 1600
+      },
+      {
+        "key": "Political Party|Republican Party|Public Figure|Glenn Beck",
+        "interactions": 1800,
+        "unique_authors": 1500
+      },
+      {
+        "key": "Media/News/Publishing|Fox News|Public Figure|Sean Hannity",
+        "interactions": 1500,
+        "unique_authors": 1200
+      },
+      {
+        "key": "Political Party|Republican Party|Public Figure|Sean Hannity",
+        "interactions": 1300,
+        "unique_authors": 1000
+      },
+      {
+        "key": "Interest|Conservative|Public Figure|Glenn Beck",
+        "interactions": 1100,
+        "unique_authors": 1000
+      },
+      {
+        "key": "Fictional Character|Mother|Holiday|Mother's Day",
+        "interactions": 1000,
+        "unique_authors": 1000
+      },
+      {
+        "key": "Public Figure|Sean Hannity|TV Show|Hannity",
+        "interactions": 1000,
+        "unique_authors": 800
+      },
+      {
+        "key": "App|Spotify|Musician/Band|Keith Sweat",
+        "interactions": 1000,
+        "unique_authors": 600
+      },
+      {
+        "key": "Media/News/Publishing|Fox News|Public Figure|Donald J. Trump",
+        "interactions": 1000,
+        "unique_authors": 800
+      },
+      {
+        "key": "Government Official|Senator Ted Cruz|Public Figure|Sean Hannity",
+        "interactions": 1000,
+        "unique_authors": 800
+      },
+      {
+        "key": "Musician/Band|Motley Crue|Musician/Band|Nikki Sixx",
+        "interactions": 900,
+        "unique_authors": 800
+      },
+      {
+        "key": "Interest|Birthday|Interest|Day",
+        "interactions": 900,
+        "unique_authors": 800
+      },
+      {
+        "key": "Public Figure|Glenn Beck|State/Province/Region|Indiana",
+        "interactions": 800,
+        "unique_authors": 700
+      },
+      {
+        "key": "Musician/Band|Nikki Sixx|Public Figure|Dj ASHBA",
+        "interactions": 800,
+        "unique_authors": 400
+      },
+      {
+        "key": "Government Official|President of the United States|Public Figure|Donald J. Trump",
+        "interactions": 800,
+        "unique_authors": 800
+      },
+      {
+        "key": "Product/Service|Facebook|Public Figure|Glenn Beck",
+        "interactions": 800,
+        "unique_authors": 700
+      },
+      {
+        "key": "Musician/Band|Gene Simmons|Musician/Band|Nikki Sixx",
+        "interactions": 800,
+        "unique_authors": 600
+      },
+      {
+        "key": "Government Official|Senator Ted Cruz|Political Party|Republican Party",
+        "interactions": 800,
+        "unique_authors": 700
+      },
+      {
+        "key": "Interest|Love|Musician/Band|Keith Sweat",
+        "interactions": 800,
+        "unique_authors": 600
+      },
+      {
+        "key": "Government Official|President of the United States|Public Figure|Glenn Beck",
+        "interactions": 700,
+        "unique_authors": 600
+      },
+      {
+        "key": "Musician/Band|Sixx:A.M.|Public Figure|Dj ASHBA",
+        "interactions": 700,
+        "unique_authors": 300
+      },
+      {
+        "key": "Food/Beverages|Cheetos|Public Figure|Glenn Beck",
+        "interactions": 700,
+        "unique_authors": 600
+      },
+      {
+        "key": "Business Person|Mark Zuckerberg|Public Figure|Glenn Beck",
+        "interactions": 700,
+        "unique_authors": 500
+      },
+      {
+        "key": "Politician|Hillary Clinton|Public Figure|Sean Hannity",
+        "interactions": 700,
+        "unique_authors": 500
+      },
+      {
+        "key": "Public Figure|Glenn Beck|Public Figure|Mark Levin",
+        "interactions": 600,
+        "unique_authors": 500
+      },
+      {
+        "key": "Interest|Conservative|Public Figure|Donald J. Trump",
+        "interactions": 600,
+        "unique_authors": 600
+      },
+      {
+        "key": "Politician|Hillary Clinton|Public Figure|Donald J. Trump",
+        "interactions": 600,
+        "unique_authors": 600
+      },
+      {
+        "key": "Musician/Band|Ginuwine|Musician/Band|Keith Sweat",
+        "interactions": 600,
+        "unique_authors": 500
+      },
+      {
+        "key": "Government Official|Senator Ted Cruz|State/Province/Region|Indiana",
+        "interactions": 600,
+        "unique_authors": 500
+      },
+      {
+        "key": "Media/News/Publishing|Fox News|Public Figure|Glenn Beck",
+        "interactions": 600,
+        "unique_authors": 500
+      },
+      {
+        "key": "Musician/Band|James Michael|Musician/Band|Nikki Sixx",
+        "interactions": 600,
+        "unique_authors": 200
+      },
+      {
+        "key": "Interest|Conservative|Public Figure|Sean Hannity",
+        "interactions": 500,
+        "unique_authors": 500
+      },
+      {
+        "key": "Public Figure|Donald J. Trump|TV Show|Hannity",
+        "interactions": 500,
+        "unique_authors": 500
+      },
+      {
+        "key": "Government Official|President of the United States|Public Figure|Sean Hannity",
+        "interactions": 500,
+        "unique_authors": 500
+      },
+      {
+        "key": "App|Twitter|Public Figure|Sean Hannity",
+        "interactions": 500,
+        "unique_authors": 300
+      },
+      {
+        "key": "Public Figure|Casey Kasem|Radio Station|American Top 40",
+        "interactions": 500,
+        "unique_authors": 200
+      },
+      {
+        "key": "Politician|Hillary Clinton|Public Figure|Glenn Beck",
+        "interactions": 500,
+        "unique_authors": 500
+      },
+      {
+        "key": "Musician/Band|Keith Sweat|Musician/Band|R. Kelly",
+        "interactions": 500,
+        "unique_authors": 200
+      },
+      {
+        "key": "Musician/Band|James Michael|Musician/Band|Sixx:A.M.",
+        "interactions": 500,
+        "unique_authors": 200
+      },
+      {
+        "key": "Public Figure|Newt Gingrich|Public Figure|Sean Hannity",
+        "interactions": 500,
+        "unique_authors": 400
+      },
+      {
+        "key": "Musician/Band|James Michael|Public Figure|Dj ASHBA",
+        "interactions": 500,
+        "unique_authors": 200
+      },
+      {
+        "key": "Holiday|Mother's Day|Interest|Love",
+        "interactions": 500,
+        "unique_authors": 400
+      },
+      {
+        "key": "Business Person|Mark Zuckerberg|Product/Service|Facebook",
+        "interactions": 400,
+        "unique_authors": 400
+      },
+      {
+        "key": "App|Twitter|Public Figure|Glenn Beck",
+        "interactions": 400,
+        "unique_authors": 400
+      },
+      {
+        "key": "Interest|Conservative|Political Party|Republican Party",
+        "interactions": 400,
+        "unique_authors": 400
+      },
+      {
+        "key": "Government Official|President of the United States|Political Party|Republican Party",
+        "interactions": 400,
+        "unique_authors": 400
+      },
+      {
+        "key": "News/Media|TheBlaze|Public Figure|Glenn Beck",
+        "interactions": 400,
+        "unique_authors": 300
+      },
+      {
+        "key": "Musical Genre|Contemporary R&B|Musician/Band|Keith Sweat",
+        "interactions": 400,
+        "unique_authors": 100
+      },
+      {
+        "key": "Food/Beverages|Cheetos|Public Figure|Donald J. Trump",
+        "interactions": 400,
+        "unique_authors": 400
+      },
+      {
+        "key": "Politician|Barack Obama|Public Figure|Sean Hannity",
+        "interactions": 400,
+        "unique_authors": 300
+      },
+      {
+        "key": "Musician/Band|Plain White T's|Song|Hey There Delilah",
+        "interactions": 400,
+        "unique_authors": 400
+      },
+      {
+        "key": "Public Figure|Alex Jones|Public Figure|Glenn Beck",
+        "interactions": 400,
+        "unique_authors": 300
+      },
+      {
+        "key": "Public Figure|Donald J. Trump|State/Province/Region|Indiana",
+        "interactions": 400,
+        "unique_authors": 300
+      },
+      {
+        "key": "Interest|Conservative|Product/Service|Facebook",
+        "interactions": 400,
+        "unique_authors": 300
+      },
+      {
+        "key": "Politician|Paul Ryan|Public Figure|Sean Hannity",
+        "interactions": 400,
+        "unique_authors": 300
+      },
+      {
+        "key": "Musician/Band|Keith Sweat|Song|Nobody (Keith Sweat song)",
+        "interactions": 400,
+        "unique_authors": 400
+      },
+      {
+        "key": "Media/News/Publishing|Fox News|Political Party|Republican Party",
+        "interactions": 400,
+        "unique_authors": 300
+      },
+      {
+        "key": "Government Official|Senator Ted Cruz|Interest|Conservative",
+        "interactions": 400,
+        "unique_authors": 300
+      },
+      {
+        "key": "Musician/Band|Jodeci|Musician/Band|Keith Sweat",
+        "interactions": 400,
+        "unique_authors": 100
+      },
+      {
+        "key": "Fictional Character|Mother|Interest|Love",
+        "interactions": 400,
+        "unique_authors": 300
+      },
+      {
+        "key": "Politician|Paul Ryan|Public Figure|Donald J. Trump",
+        "interactions": 400,
+        "unique_authors": 300
+      },
+      {
+        "key": "Government Official|Senator Ted Cruz|Media/News/Publishing|Fox News",
+        "interactions": 400,
+        "unique_authors": 300
+      },
+      {
+        "key": "Musician/Band|Jon B|Musician/Band|Keith Sweat",
+        "interactions": 300,
+        "unique_authors": 300
+      },
+      {
+        "key": "Business Person|Mark Zuckerberg|Interest|Conservative",
+        "interactions": 300,
+        "unique_authors": 300
+      },
+      {
+        "key": "Musician/Band|KISS|Musician/Band|Nikki Sixx",
+        "interactions": 300,
+        "unique_authors": 200
+      },
+      {
+        "key": "Government Official|Senator Ted Cruz|Public Figure|Carly Fiorina",
+        "interactions": 300,
+        "unique_authors": 300
+      },
+      {
+        "key": "Politician|Barack Obama|Public Figure|Glenn Beck",
+        "interactions": 300,
+        "unique_authors": 300
+      },
+      {
+        "key": "Producer|Ryan Seacrest|University|University of Georgia",
+        "interactions": 300,
+        "unique_authors": 300
+      },
+      {
+        "key": "Public Figure|Glenn Beck|Public Figure|Rush Limbaugh",
+        "interactions": 300,
+        "unique_authors": 200
+      },
+      {
+        "key": "Public Figure|Rush Limbaugh|Public Figure|Sean Hannity",
+        "interactions": 300,
+        "unique_authors": 200
+      },
+      {
+        "key": "App|Twitter|Public Figure|Donald J. Trump",
+        "interactions": 300,
+        "unique_authors": 200
+      },
+      {
+        "key": "Interest|Countries|Public Figure|Glenn Beck",
+        "interactions": 300,
+        "unique_authors": 300
+      },
+      {
+        "key": "Musician/Band|Nikki Sixx|Public Figure|Paul Stanley",
+        "interactions": 300,
+        "unique_authors": 200
+      },
+      {
+        "key": "Musician/Band|Gene Simmons|Musician/Band|KISS",
+        "interactions": 300,
+        "unique_authors": 200
+      },
+      {
+        "key": "Political Party|Republican Party|Politician|Hillary Clinton",
+        "interactions": 300,
+        "unique_authors": 300
+      },
+      {
+        "key": "Public Figure|Donald J. Trump|Public Figure|Mark Levin",
+        "interactions": 300,
+        "unique_authors": 200
+      },
+      {
+        "key": "App|Twitter|Product/Service|Facebook",
+        "interactions": 300,
+        "unique_authors": 200
+      },
+      {
+        "key": "Public Figure|Glenn Beck|State/Province/Region|Nebraska",
+        "interactions": 300,
+        "unique_authors": 200
+      },
+      {
+        "key": "Musician/Band|Motley Crue|Musician/Band|Sixx:A.M.",
+        "interactions": 300,
+        "unique_authors": 200
+      },
+      {
+        "key": "Government Official|Senator Ted Cruz|Public Figure|Mark Levin",
+        "interactions": 300,
+        "unique_authors": 200
+      },
+      {
+        "key": "Country|United States|Public Figure|Glenn Beck",
+        "interactions": 300,
+        "unique_authors": 200
+      },
+      {
+        "key": "Musician/Band|Jagged Edge|Musician/Band|Keith Sweat",
+        "interactions": 300,
+        "unique_authors": 200
+      },
+      {
+        "key": "Musician/Band|Nikki Sixx|Public Figure|Prince",
+        "interactions": 200,
+        "unique_authors": 200
+      },
+      {
+        "key": "Musician/Band|Johnny Gill|Musician/Band|Keith Sweat",
+        "interactions": 200,
+        "unique_authors": 100
+      },
+      {
+        "key": "Media/News/Publishing|Fox News|TV Show|Hannity",
+        "interactions": 200,
+        "unique_authors": 200
+      },
+      {
+        "key": "Government Official|President of the United States|Government Official|Senator Ted Cruz",
+        "interactions": 200,
+        "unique_authors": 200
+      },
+      {
+        "key": "Politician|Barack Obama|Public Figure|Donald J. Trump",
+        "interactions": 200,
+        "unique_authors": 200
+      },
+      {
+        "key": "Politician|Mitt Romney|Public Figure|Glenn Beck",
+        "interactions": 200,
+        "unique_authors": 200
+      },
+      {
+        "key": "Public Figure|Carly Fiorina|Public Figure|Glenn Beck",
+        "interactions": 200,
+        "unique_authors": 200
+      },
+      {
+        "key": "Government Official|Senator Ted Cruz|State/Province/Region|Nebraska",
+        "interactions": 200,
+        "unique_authors": 200
+      },
+      {
+        "key": "Interest|Birthday|Interest|Love",
+        "interactions": 200,
+        "unique_authors": 200
+      },
+      {
+        "key": "Musician/Band|Nikki Sixx|Product/Service|YouTube",
+        "interactions": 200,
+        "unique_authors": 200
+      },
+      {
+        "key": "Interest|Countries|Public Figure|Donald J. Trump",
+        "interactions": 200,
+        "unique_authors": 200
+      },
+      {
+        "key": "Artist|Bobby Brown|Musician/Band|Keith Sweat",
+        "interactions": 200,
+        "unique_authors": 200
+      },
+      {
+        "key": "Government Official|Speaker of the United States House of Representatives|Public Figure|Sean Hannity",
+        "interactions": 200,
+        "unique_authors": 200
+      },
+      {
+        "key": "Public Figure|Donald J. Trump|Public Figure|Newt Gingrich",
+        "interactions": 200,
+        "unique_authors": 200
+      },
+      {
+        "key": "Musician/Band|Gene Simmons|Public Figure|Prince",
+        "interactions": 200,
+        "unique_authors": 200
+      },
+      {
+        "key": "Musician/Band|Ginuwine|Musician/Band|Jon B",
+        "interactions": 200,
+        "unique_authors": 200
+      },
+      {
+        "key": "Interest|Conservative|Media/News/Publishing|Fox News",
+        "interactions": 200,
+        "unique_authors": 200
+      },
+      {
+        "key": "Musician/Band|Keith Sweat|TV Genre|Music Videos",
+        "interactions": 200,
+        "unique_authors": 200
+      },
+      {
+        "key": "Government Official|President of the United States|Politician|Hillary Clinton",
+        "interactions": 200,
+        "unique_authors": 200
+      },
+      {
+        "key": "Government Official|Senator Ted Cruz|TV Show|Hannity",
+        "interactions": 200,
+        "unique_authors": 200
+      },
+      {
+        "key": "Media/News/Publishing|CNN|Public Figure|Donald J. Trump",
+        "interactions": 200,
+        "unique_authors": 100
+      },
+      {
+        "key": "Musician/Band|Keith Sweat|Organization|iTunes Store",
+        "interactions": 200,
+        "unique_authors": 200
+      },
+      {
+        "key": "Political Party|Republican Party|Politician|Paul Ryan",
+        "interactions": 200,
+        "unique_authors": 200
+      },
+      {
+        "key": "Political Party|Republican Party|TV Show|Hannity",
+        "interactions": 200,
+        "unique_authors": 200
+      },
+      {
+        "key": "Government Official|Senator Ted Cruz|Government Organization|United States Senate",
+        "interactions": 200,
+        "unique_authors": 200
+      },
+      {
+        "key": "Political Party|Democratic Party|Political Party|Republican Party",
+        "interactions": 200,
+        "unique_authors": 200
+      },
+      {
+        "key": "Landmark|Facebook|Public Figure|Glenn Beck",
+        "interactions": 200,
+        "unique_authors": 100
+      },
+      {
+        "key": "Artist|Athena Cage|Musician/Band|Keith Sweat",
+        "interactions": 200,
+        "unique_authors": 200
+      },
+      {
+        "key": "Musician/Band|Gene Simmons|Public Figure|Paul Stanley",
+        "interactions": 200,
+        "unique_authors": 100
+      },
+      {
+        "key": "Government Official|Speaker of the United States House of Representatives|Politician|Paul Ryan",
+        "interactions": 200,
+        "unique_authors": 200
+      },
+      {
+        "key": "Interest|Liberal|Public Figure|Sean Hannity",
+        "interactions": 200,
+        "unique_authors": 100
+      },
+      {
+        "key": "Interest|Talk radio|Public Figure|Glenn Beck",
+        "interactions": 200,
+        "unique_authors": 100
+      },
+      {
+        "key": "Musical Genre|Rock Music|Musician/Band|Nikki Sixx",
+        "interactions": 200,
+        "unique_authors": 100
+      },
+      {
+        "key": "Government Official|Senator Ted Cruz|Politician|John Kasich",
+        "interactions": 200,
+        "unique_authors": 100
+      },
+      {
+        "key": "Interest|Countries|Public Figure|Sean Hannity",
+        "interactions": 200,
+        "unique_authors": 100
+      },
+      {
+        "key": "Interest|Bass guitar|Musician/Band|Nikki Sixx",
+        "interactions": 200,
+        "unique_authors": 100
+      },
+      {
+        "key": "Government Official|Senator Ted Cruz|Politician|Hillary Clinton",
+        "interactions": 200,
+        "unique_authors": 100
+      },
+      {
+        "key": "Government Official|Speaker of the United States House of Representatives|Public Figure|Donald J. Trump",
+        "interactions": 200,
+        "unique_authors": 200
+      },
+      {
+        "key": "Interest|Ufos|Landmark|Coast to Coast AM",
+        "interactions": 200,
+        "unique_authors": 100
+      },
+      {
+        "key": "Government Organization|United States Senate|Public Figure|Glenn Beck",
+        "interactions": 200,
+        "unique_authors": 100
+      },
+      {
+        "key": "Political Party|Democratic Party|Public Figure|Donald J. Trump",
+        "interactions": 200,
+        "unique_authors": 100
+      },
+      {
+        "key": "Public Figure|Bill O'Reilly|Public Figure|Sean Hannity",
+        "interactions": 200,
+        "unique_authors": 100
+      },
+      {
+        "key": "Interest|Life|Interest|Love",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Non-Profit Organization|People For the American Way|Public Figure|Glenn Beck",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Interest|Birthday|Musician/Band|Keith Sweat",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Interest|Single|Musician/Band|Keith Sweat",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Interest|Love|Organization|iTunes Store",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Media/News/Publishing|CNN|Public Figure|Sean Hannity",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Musician/Band|KISS|Public Figure|Prince",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Political Party|Democratic Party|Public Figure|Glenn Beck",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Interest|Talk radio|Landmark|Coast to Coast AM",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Journalist|Andrew Breitbart|Public Figure|Glenn Beck",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Musician/Band|Keith Sweat|Product/Service|Facebook",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Interest|Friendship|Interest|Love",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Political Party|Democratic Party|Public Figure|Sean Hannity",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Politician|Paul Ryan|TV Show|Hannity",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Interest|Talk radio|Interest|Ufos",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Public Figure|Donald J. Trump|Public Figure|Rush Limbaugh",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Public Figure|Glenn Beck|Public Figure|Sean Hannity",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "App|Spotify|Artist|Athena Cage",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "GEOGRAPHY_GENERAL|Album|Musician/Band|Keith Sweat",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Landmark|Coast to Coast AM|Public Figure|George Noory",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Artist|Athena Cage|Song|Nobody (Keith Sweat song)",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Media/News/Publishing|CNN|Public Figure|Glenn Beck",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Fictional Character|Delilah|Fictional Character|Samson",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Public Figure|Glenn Beck|State/Province/Region|Texas",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Interest|Love|Religion|Gratitude",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Musician/Band|Ginuwine|Musician/Band|Jagged Edge",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Holiday|Mother's Day|Interest|Life",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Product/Service|Facebook|Public Figure|Donald J. Trump",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Musician/Band|KISS|Public Figure|Paul Stanley",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Musical Genre|R&B|Musician/Band|Keith Sweat",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Country|United States|Public Figure|Donald J. Trump",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Interest|God|Public Figure|Glenn Beck",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Artist|Doug E. Fresh|Musician/Band|Keith Sweat",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "App|Twitter|Business Person|Mark Zuckerberg",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "GEOGRAPHY_GENERAL|Album|Musician/Band|Nikki Sixx",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Political Party|Republican Party|State/Province/Region|Indiana",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "City|Houston, Texas|Musician/Band|Keith Sweat",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Musician/Band|Keith Sweat|Product/Service|Google Play",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Musician/Band|Keith Sweat|Musician/Band|Slick Rick",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "News/Media|TheBlaze|Public Figure|Donald J. Trump",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Politician|John Kasich|Public Figure|Donald J. Trump",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Interest|Love|Movie Genre|Family",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Politician|John Kasich|Public Figure|Glenn Beck",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Government Official|President of the United States|Media/News/Publishing|Fox News",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Government Official|Speaker of the United States House of Representatives|Political Party|Republican Party",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Interest|Racism|Public Figure|Glenn Beck",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Election|United States Presidential Election, 2008|Public Figure|Donald J. Trump",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Public Figure|Dana Loesch|Public Figure|Glenn Beck",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Government Organization|The White House|Public Figure|Glenn Beck",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Public Figure|Donald J. Trump|State/Province/Region|Nebraska",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Book|Bible|Public Figure|Glenn Beck",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "Business Person|Mark Zuckerberg|Public Figure|Donald J. Trump",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "App|Spotify|Song|Nobody (Keith Sweat song)",
+        "interactions": 100,
+        "unique_authors": 100
+      },
+      {
+        "key": "App|Twitter|Government Official|Senator Ted Cruz",
+        "interactions": 100,
+        "unique_authors": 100
+      }
+    ],
+    "redacted": false
+  }
+}
