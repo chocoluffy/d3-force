@@ -23,7 +23,47 @@ function updateGraphByTopic(rawNodes, rawLinks, topicHash, minVal, maxVal, arrFi
   newRdyNodes = newData.RdyNodes;
   newRdyLinks = newData.RdyLinks;
   loadGraph(newRdyNodes, newRdyLinks, arrFilter);
-}
+};
+
+/*
+  when the first option is clicked, the topic will expand next level content.
+ */
+function FirstOneBoxExpand(){
+  var checkboxDiv = $("#checkbox");
+  var firstBoxInput = checkboxDiv.find("input:eq(0)");
+  var data = [
+      {
+          label: 'Customer Service',
+          children: [
+              { label: 'Product Return' },
+              { label: 'Customer Consulting' }
+          ]
+      },
+      {
+          label: 'Marketing',
+          children: [
+              { label: 'Brand Marketing' }
+          ]
+      }
+  ];
+
+  firstBoxInput.click(function(){
+    if(this.checked){
+      var firstDiv = checkboxDiv.find("div:eq(0)");
+      $("<div id=treeview style='position: absolute; left: 140px; top: 50px;'></div>").appendTo(firstDiv);
+      $('#treeview').tree({
+        data: data,
+        onCreateLi: function(node, $li) {
+                $lielement = $li.find('.jqtree-title').after("<input type='checkbox' class='cb-element' checked='checked' />");
+            }
+      });
+    }
+    else{
+      var firstDiv = checkboxDiv.find("div:eq(0)");
+      firstDiv.find('#treeview').remove();
+    }
+  });    
+};
 
 /*
   From topicArr set return by query data, populate the checkbox options.
@@ -31,7 +71,7 @@ function updateGraphByTopic(rawNodes, rawLinks, topicHash, minVal, maxVal, arrFi
  */
 function pplCheckBox(topicArr, rawNodes, rawLinks, topicHash, minVal, maxVal){
   topicArr.map(function(d, i){
-    $("#checkbox").append("<label>" + d + "</label><input type='checkbox' id='checkbox" + i + "' class='cb-element' checked='checked'/><br>");
+    $("#checkbox").append("<div><label>" + d + "</label><input type='checkbox' id='checkbox" + i + "' class='cb-element' checked='checked'/></div><br>");
     var thisID = '#checkbox' + i;
     $(thisID).click(function(){
       console.log(d);
@@ -65,6 +105,10 @@ function pplCheckBox(topicArr, rawNodes, rawLinks, topicHash, minVal, maxVal){
     }
     console.log(currentTopicArr, currentTopicArr.length);
   });
+
+  // should be improved upon for topic expansion.
+  FirstOneBoxExpand();
+
 };
 
 /*
@@ -262,9 +306,9 @@ function loadGraph(nodes, links, arrFilter){
       height = 800;
 
   var color = d3.scale.category20();
-  
+
   var force = d3.layout.force()
-      .charge(-120)
+      .charge(-150)
       .linkDistance(200)
       .size([width, height]);
 
@@ -306,7 +350,7 @@ function loadGraph(nodes, links, arrFilter){
         .text(function(d) { return d.name; });
 
     var text = svg.append("g").selectAll("text")
-      .data(force.nodes());
+      .data(graphNodes);
 
     text.enter().append("text")
       .attr("x", 8)
@@ -469,16 +513,16 @@ function loadGraph(nodes, links, arrFilter){
     node.transition()
       .duration(200)
       .attr("r", function(d, i){
-        if(RdyfreqHash[i]){ // only update those existing nodes.
-          return RdyfreqHash[i];  
+        if(RdyfreqHash[d.index]){ // only update those existing nodes.
+            return RdyfreqHash[d.index]; // not looking at the node array index, but object index!
         }
         else{
           return circle_radius;
         }
       })
       .style("fill", function(d, i){
-        if(freqHash[i]){
-          if(freqHash[i] > freqThreshold){
+        if(freqHash[d.index]){
+          if(freqHash[d.index] > freqThreshold){
             return "#FFA500";
           }
           return "#1F77B4";
@@ -491,8 +535,8 @@ function loadGraph(nodes, links, arrFilter){
     text.transition()
       .duration(200)
       .attr("x", function(d, i){
-        if(RdyfreqHash[i]){
-          return 8 - circle_radius / 2 + RdyfreqHash[i] / 2;
+        if(RdyfreqHash[d.index]){
+          return 8 - circle_radius / 2 + RdyfreqHash[d.index] / 2;
         }
         else{
           return 8;
