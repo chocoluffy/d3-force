@@ -16,3 +16,7 @@ I "naively" define the influencer as those who have most connections, but it can
 - apply association rule to find the similarity of difference topics(which and which are more coherent and thus can form a community).
 - generalize the hottness of each topic(for advertising use).
 - apply machine learning to help to predict the topics and potential community a phrase may belong to.
+
+### DEMO:
+
+![demo](http://ac-TC2Vc5Tu.clouddn.com/2b9e1cea59564dc1.png)
