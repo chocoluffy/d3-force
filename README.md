@@ -6,7 +6,7 @@ I "naively" define the influencer as those who have most connections, but it can
 
 ### What I have done:
 
-- set up force layout with fake data.
+- set up interactive force layout with fake data. The graph can be dragged, highlighted, filtered by users.
 - update the layout's nodes\links to have real-time data update(from backend pipeline), which lies a hard point as to how to detach the data from the nodes\links, since d3's underlying mechanism won't update the data value automatically, we need to `exit()` then `enter()` again to update all nodes\links data value and indexs. Then call that `update()` function whenever I insert\remove nodes\links from graph.
 - filter data by topics.
 - show topic's hierarchy.
