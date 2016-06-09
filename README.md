@@ -19,4 +19,4 @@ I "naively" define the influencer as those who have most connections, but it can
 
 ### DEMO:
 
-![demo](http://ac-TC2Vc5Tu.clouddn.com/2b9e1cea59564dc1.png)
+![demo](http://ww2.sinaimg.cn/large/72f96cbagw1f4pek3gd7sj21kw0uz43a)
