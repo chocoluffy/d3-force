@@ -10,6 +10,7 @@ I "naively" define the influencer as those who have most connections, but it can
 - update the layout's nodes\links to have real-time data update(from backend pipeline), which lies a hard point as to how to detach the data from the nodes\links, since d3's underlying mechanism won't update the data value automatically, we need to `exit()` then `enter()` again to update all nodes\links data value and indexs. Then call that `update()` function whenever I insert\remove nodes\links from graph.
 - filter data by topics.
 - show topic's hierarchy.
+- dynamically generate each topic and its influencers, allow users to toggle any of them.
 
 ### TODOs:
 
